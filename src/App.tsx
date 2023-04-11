@@ -7,7 +7,6 @@ import JokesList from './components/JokesList'
 import JokesHeader from './components/JokesHeader'
 import JokesFooter from './components/JokesFooter'
 import LoginForm from './components/Login'
-import './App.css'
 import { Joke } from './types'
 
 function App() {
