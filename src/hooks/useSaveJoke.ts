@@ -19,10 +19,8 @@ export function useSaveJoke(): UseSaveJokeResult {
       let response;
 
       if (joke.id) {
-        // Si el ID de la broma existe, hacemos una petición PUT para actualizarla
         response = await axios.put(`https://retoolapi.dev/zu9TVE/jokes/${joke.id}`, joke);
       } else {
-        // Si el ID de la broma no existe, hacemos una petición POST para crearla
         response = await axios.post('https://retoolapi.dev/zu9TVE/jokes', joke);
       }
 
