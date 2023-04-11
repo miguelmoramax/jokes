@@ -64,8 +64,17 @@ In the views column every number has to be one of the following colors following
 3. A dark mode toggle should switch background and text color.
 //TODO: DONE
 4. In order for the user to have access to the application, a "token" should exist in cookies or local storage. If there is no "token" a login screen prompts the user to click a button that stores a "token". Also a logout button should displayed in the home page.
-
-
 # Git
 
 To start developing, create a git repository and add this file as Readme.md in the main branch. Then start developing the application in another branch.
+
+
+# Install instructions
+
+Run `npm run install` to install dependencies  to run the project. 
+
+Run  
+```sh 
+npm run dev
+```
+to start the project, this should run on the `localhost:5173` by default, if the port is in use, the app will run in another port.
