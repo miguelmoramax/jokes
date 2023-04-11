@@ -24,7 +24,6 @@ export function useSaveJoke(): UseSaveJokeResult {
         response = await axios.post('https://retoolapi.dev/zu9TVE/jokes', joke);
       }
 
-      // Si la petición se ha completado correctamente, no necesitamos hacer nada más
     } catch (err: any ) {
       setError(err);
     } finally {
